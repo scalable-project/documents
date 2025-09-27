@@ -1,0 +1,43 @@
+site_name: 'Campus Connect Docs'
+site_author: 'Vipul'
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# nav:
+#   - 'Home': 'index.md'
+#   - 'API Reference': 'api/endpoints.md'
+#   - 'Database':
+#     - 'Schema': 'database/schema.md'
+
+
+nav:
+  - 'Home': 'index.md'
+  - 'Services':
+    - 'User & Social':
+      - 'Overview': 'services/user-social/index.md'
+      - 'API Reference': 'services/user-social/api.md'
+      - 'DB Schema & Data Flow': 'services/user-social/database.md'
+    - 'Event Management': 
+      - 'Overview': 'services/event-management/index.md'
+      - 'API Reference': 'services/event-management/api.md'
+      - 'DB Schema & Data Flow': 'services/event-management/database.md'
+    - 'Real-time Notification': 
+      - 'Overview': 'services/real-time-notification/index.md'
+      - 'API Reference': 'services/real-time-notification/api.md'
+      - 'Redis Schema': 'services/real-time-notification/database.md'
+    - 'Discovery and Recommendation': 
+      - 'Overview': 'services/discovery-recommendation/index.md'
+      - 'API Reference': 'services/discovery-recommendation/api.md'
+      - 'DB Schema': 'services/discovery-recommendation/database.md'
+    
+    
